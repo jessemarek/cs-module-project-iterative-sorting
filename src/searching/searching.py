@@ -1,6 +1,9 @@
 def linear_search(arr, target):
     # Your code here
-
+    # we need to look at each item in thelist and compare it to the target
+    for i in range(len(arr)):
+        if arr[i] == target:
+            return i
 
     return -1   # not found
 
@@ -9,6 +12,5 @@ def linear_search(arr, target):
 def binary_search(arr, target):
 
     # Your code here
-
 
     return -1  # not found
